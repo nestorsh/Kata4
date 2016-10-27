@@ -12,6 +12,7 @@ public class Kata4 {
         ArrayList<String> mailList=MailListReader.read(filename);
         Histogram<String> histogram = MailHistogramBuilder.build(mailList);
         HistogramDisplay histoDisplay = new HistogramDisplay(histogram);
-        histoDisplay.execute();
+        histoDisplay.execute(); 
+        
     }
 }
